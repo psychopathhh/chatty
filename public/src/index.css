@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "JosefinSansBold";
+    src: local("JosefinSansBold"),
+        url("./fonts/JosefinSans/JosefinSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JosefinSansExtraLight";
+    src: local("JosefinSansExtraLight"),
+        url("./fonts/JosefinSans/JosefinSans-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JosefinSansLight";
+    src: local("JosefinSansLight"),
+        url("./fonts/JosefinSans/JosefinSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JosefinSansMedium";
+    src: local("JosefinSansMedium"),
+        url("./fonts/JosefinSans/JosefinSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JosefinSansRegular";
+    src: local("JosefinSansRegular"),
+        url("./fonts/JosefinSans/JosefinSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JosefinSansThin";
+    src: local("JosefinSansThin"),
+        url("./fonts/JosefinSans/JosefinSans-Thin.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JosefinSansSemiBold";
+    src: local("JosefinSansSemiBold"),
+        url("./fonts/JosefinSans/JosefinSans-SemiBold.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+body,
+button,
+input {
+    font-family: "JosefinSansRegular", sans-serif;
+}
